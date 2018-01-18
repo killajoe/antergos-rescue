@@ -20,6 +20,7 @@ chmod +x /usr/bin/cnchi-dev
 chmod +x /usr/bin/hardwareinfo.sh
 chmod +x /usr/bin/install-antergos.sh
 chmod +x /usr/bin/pacman-boot
+chmod +x /usr/bin/livecd-alsa-unmuter
 
 sed -i 's/#\(PermitRootLogin \).\+/\1yes/' /etc/ssh/sshd_config
 sed -i "s/#Server/Server/g" /etc/pacman.d/mirrorlist
@@ -29,5 +30,5 @@ sed -i 's/#\(HandleSuspendKey=\)suspend/\1ignore/' /etc/systemd/logind.conf
 sed -i 's/#\(HandleHibernateKey=\)hibernate/\1ignore/' /etc/systemd/logind.conf
 sed -i 's/#\(HandleLidSwitch=\)suspend/\1ignore/' /etc/systemd/logind.conf
 
-systemctl enable pacman-init.service choose-mirror.service NetworkManager.service vboxservice.service
+systemctl enable pacman-init.service choose-mirror.service NetworkManager.service vboxservice.service livecd-alsa-unmuter.service
 systemctl set-default multi-user.target
