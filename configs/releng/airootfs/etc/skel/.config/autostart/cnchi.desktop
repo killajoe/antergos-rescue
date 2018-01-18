@@ -2,10 +2,10 @@
 Terminal=false
 Icon=/usr/share/antergos/cnchi.png
 Type=Application
-Exec=/usr/bin/install-antergos.sh
+Exec=/usr/bin/pacman-boot
 Name=Cnchi rocket
 GenericName=Cnchi Updater
-Comment=Updates Cnchi at boot, and fire it up
+Comment=Updates Cnchi at boot
 X-GNOME-Autostart-Delay=5
 X-MATE-Autostart-Delay=5
 X-DEEPIN-Autostart-Delay=5
