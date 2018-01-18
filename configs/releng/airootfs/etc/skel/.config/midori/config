@@ -1,0 +1,23 @@
+[settings]
+default-charset=ISO-8859-1
+enable-developer-extras=true
+zoom-text-and-images=true
+last-window-width=1129
+last-window-height=635
+last-panel-page=5
+location-entry-search=https://duckduckgo.com/?q=%s
+toolbar-items=TabNew,Back,NextForward,ReloadStop,BookmarkAdd,Location,Search,Trash,CompactMenu
+homepage=https://antergos.com/wiki/
+tabhome=about:dial
+download-folder=/home/rescue/Downloads
+user-agent=Mozilla/5.0 (X11; Linux) AppleWebKit/537.32 (KHTML, like Gecko) Chrome/18.0.1025.133 Safari/537.32 Midori/0.5
+
+[extensions]
+libcookie-manager.so=true
+libshortcuts.so=true
+libadblock.so=true
+libcolorful-tabs.so=true
+libfeed-panel.so=true
+libtoolbar-editor.so=true
+libnotes.so=true
+libmouse-gestures.so=true

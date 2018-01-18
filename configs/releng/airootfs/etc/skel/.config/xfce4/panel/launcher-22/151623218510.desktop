@@ -1,0 +1,22 @@
+[Desktop Entry]
+Version=1.1
+Name[de]=Datensicherungen
+Name=Backups
+Comment[de]=Ihre Datensicherungseinstellungen ändern
+Comment=Change your backup settings
+Icon=org.gnome.DejaDup
+Exec=deja-dup
+StartupNotify=true
+DBusActivatable=true
+Type=Application
+Categories=Utility;Archiving;GNOME;GTK;X-GNOME-Utilities;
+Keywords[de]=déjà;deja;dup;backup;datensicherung;sicherung;
+Keywords=déjà;deja;dup;
+X-GNOME-UsesNotifications=true
+Actions=backup;
+X-XFCE-Source=file:///usr/share/applications/org.gnome.DejaDup.desktop
+
+[Desktop Action backup]
+Name[de]=Sichern
+Name=Back Up
+Exec=deja-dup --backup

@@ -1,0 +1,18 @@
+15.1.2018:
+change from antergos-iso to original archiso sources!
+
+16.1.2018:
+include xfce4 and make it startable over startx:
+-configurations needs to be cleaned up and enhanced
+__transparency settings inside xfce4-terminal is 100% what is bad ;)
+__transparency for DE is present too away=useless
+__autostart includes useless stuff
+__cnchi needs to get worked on >> it is not jet working at all..
+
+19.1.2018
+__prepare configurations for xfce more clean and complete
+*battery plugin is disturbiong -needs to be removed
+*script for starting inxi needs to go to skel folder
+
+__cnchi still not starting
+*need for removing try and error scripts from /usr/bin and /arc/setup
