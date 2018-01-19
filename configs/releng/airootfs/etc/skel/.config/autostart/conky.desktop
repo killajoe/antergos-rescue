@@ -2,7 +2,7 @@
 Terminal=false
 Icon=/usr/share/icons/Numix-Circle/48/apps/hardinfo.svg
 Type=Application
-Exec=conky -c ~/conky-inxi-rc
+Exec=conky -c ~/.conky-inxi-rc
 Name=conky-inxi
 GenericName=conky inxi viewer
 Comment=shows inxi hardinfo at desktop
