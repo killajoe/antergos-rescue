@@ -1,0 +1,20 @@
+# livecd.service failed:
+
+● livecd.service - LiveMedia Config Script
+   Loaded: loaded (/etc/systemd/system/livecd.service; disabled; vendor preset: disabled)
+   Active: failed (Result: exit-code) since Thu 2018-01-18 19:20:26 UTC; 1min 2s ago
+ Main PID: 335 (code=exited, status=203/EXEC)
+
+Jan 18 19:20:26 archiso systemd[1]: Starting LiveMedia Config Script...
+Jan 18 19:20:26 archiso systemd[335]: livecd.service: Failed to execute command: No such file or directory
+Jan 18 19:20:26 archiso systemd[335]: livecd.service: Failed at step EXEC spawning /etc/antergos/livecd: No such file or directory
+Jan 18 19:20:26 archiso systemd[1]: livecd.service: Main process exited, code=exited, status=203/EXEC
+Jan 18 19:20:26 archiso systemd[1]: livecd.service: Failed with result 'exit-code'.
+Jan 18 19:20:26 archiso systemd[1]: Failed to start LiveMedia Config Script.
+
+# xfce4 battery monitor fails if no battery is present
+
+# Thunar volman? or what ever is automounting 
+devices nd open up filebrowser on installation with cnchi
+
+# desktop needs Keyoard Layout switcher (XFCE - Panel?) 

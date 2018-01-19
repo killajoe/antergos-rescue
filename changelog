@@ -9,10 +9,14 @@ __transparency for DE is present too away=useless
 __autostart includes useless stuff
 __cnchi needs to get worked on >> it is not jet working at all..
 
-19.1.2018
+18.1.2018
 __prepare configurations for xfce more clean and complete
 *battery plugin is disturbiong -needs to be removed
-*script for starting inxi needs to go to skel folder
+*script for starting inxi needs be exetuble
 
 __cnchi still not starting
 *need for removing try and error scripts from /usr/bin and /arc/setup
+*pacman-boot = to get internet working and update cnchi?
+**create chnchi-start.sh to invoce pacman-boot and launch cnchi
+
+
