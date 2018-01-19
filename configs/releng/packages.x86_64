@@ -71,7 +71,6 @@ orage
 xfce4-clipman-plugin
 xfce4-cpufreq-plugin
 xfce4-cpugraph-plugin
-thunar-root
 thunar-archive-plugin
 thunar-media-tags-plugin
 thunar-volman
@@ -147,8 +146,6 @@ b43-fwcutter
 broadcom-wl
 dnsutils
 intel-ucode
-ipw2100-fw
-ipw2200-fw
 linux-firmware
 modemmanager
 netctl
@@ -156,40 +153,24 @@ net-tools
 networkmanager
 networkmanager-openvpn
 nss-mdns
-usb_modeswitch
 whois
-wireless_tools
-wpa_actiond
-zd1211-firmware
 
 # Installation
-arch-install-scripts
-crda
-dialog
-dmraid
 dkms
 efibootmgr
 efitools
 fakeroot
 gparted
-gptfdisk
-grub
 haveged
 hwdetect
 hwinfo
 ntp
 os-prober
-parted
 antergos-keyring
 antergos-mirrorlist
 yaourt 
 
 # Filesystems
-btrfs-progs
-dosfstools
-f2fs-tools
 linux-headers
-mtools
-ntfs-3g
 squashfs-tools
 xfsprogs
