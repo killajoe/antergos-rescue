@@ -29,7 +29,7 @@ gap_y 25
 no_buffers yes
 uppercase no
 override_utf8_locale yes
-use_spacer yes
+use_spacer left
 
 
 
