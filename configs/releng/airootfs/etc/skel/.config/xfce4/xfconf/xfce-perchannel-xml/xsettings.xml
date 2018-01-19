@@ -2,8 +2,8 @@
 
 <channel name="xsettings" version="1.0">
   <property name="Net" type="empty">
-    <property name="ThemeName" type="string" value="Numix-Frost"/>
-    <property name="IconThemeName" type="string" value="Numix-Square"/>
+    <property name="ThemeName" type="string" value="Numix"/>
+    <property name="IconThemeName" type="string" value="Numix-Circle"/>
     <property name="DoubleClickTime" type="empty"/>
     <property name="DoubleClickDistance" type="empty"/>
     <property name="DndDragThreshold" type="empty"/>
@@ -16,9 +16,9 @@
   <property name="Xft" type="empty">
     <property name="DPI" type="empty"/>
     <property name="Antialias" type="empty"/>
-    <property name="Hinting" type="empty"/>
-    <property name="HintStyle" type="empty"/>
-    <property name="RGBA" type="empty"/>
+    <property name="Hinting" type="int" value="1"/>
+    <property name="HintStyle" type="string" value="hintmedium"/>
+    <property name="RGBA" type="string" value="rgb"/>
   </property>
   <property name="Gtk" type="empty">
     <property name="CanChangeAccels" type="empty"/>

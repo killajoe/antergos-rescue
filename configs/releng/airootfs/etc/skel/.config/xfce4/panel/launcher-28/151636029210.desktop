@@ -1,0 +1,16 @@
+[Desktop Entry]
+Version=1.0
+Name=Keyboard
+Name[de]=Tastatur
+Comment=Edit keyboard settings and application shortcuts
+Comment[de]=Die Tastatureinstellungen und Tastenkürzel für Anwendungen bearbeiten
+Exec=xfce4-keyboard-settings
+Icon=preferences-desktop-keyboard
+Terminal=false
+Type=Application
+Categories=XFCE;GTK;Settings;DesktopSettings;X-XFCE-SettingsDialog;X-XFCE-HardwareSettings;
+StartupNotify=true
+OnlyShowIn=XFCE;
+X-XfcePluggable=true
+X-XfceHelpPage=keyboard
+X-XFCE-Source=file:///usr/share/applications/xfce-keyboard-settings.desktop

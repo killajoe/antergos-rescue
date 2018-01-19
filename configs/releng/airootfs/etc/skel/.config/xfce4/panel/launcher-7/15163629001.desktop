@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=screenshot
+Comment=take a screenshot
+Exec=/usr/bin/xfce4-screenshooter
+Icon=accessories-screenshot
+Path=
+Terminal=false
+StartupNotify=true

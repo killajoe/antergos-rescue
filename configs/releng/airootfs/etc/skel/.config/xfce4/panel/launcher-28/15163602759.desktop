@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=Removable Drives and Media
+Name[de]=Wechseldatenträger- und Medieneinstellungen
+Comment=Configure management of removable drives and media
+Comment[de]=Verwaltung von Wechseldatenträgern und -medien konfigurieren
+Exec=thunar-volman-settings
+Icon=drive-removable-media
+Terminal=false
+StartupNotify=true
+Type=Application
+Categories=XFCE;GTK;Settings;DesktopSettings;X-XFCE-SettingsDialog;X-XFCE-HardwareSettings;
+X-XFCE-Source=file:///usr/share/applications/thunar-volman-settings.desktop

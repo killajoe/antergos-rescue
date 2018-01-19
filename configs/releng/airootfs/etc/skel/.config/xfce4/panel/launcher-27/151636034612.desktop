@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Antergos Wiki
+Comment=open Antergos Wiki for getting help!
+Exec=chromium https://www.antergos.com/wiki
+Icon=chromium
+Path=
+Terminal=false
+StartupNotify=true

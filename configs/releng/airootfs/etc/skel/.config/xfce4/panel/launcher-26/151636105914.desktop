@@ -1,0 +1,14 @@
+[Desktop Entry]
+Version=1.0
+Name=Grsync
+Terminal=false
+Type=Application
+MimeType=application/x-grsync-session;
+Categories=Application;System;
+GenericName=Synchronize files with rsync
+GenericName[de]=Dateien mit rsync synchronisieren
+Comment=Synchronize files and folders (a GTK GUI for rsync)
+Comment[de]=Dateien und Ordner abgleichen (eine grafische rsync-Benutzeroberfläche basierend auf GTK)
+Exec=/usr/bin/grsync -i %f
+Icon=grsync.png
+X-XFCE-Source=file:///usr/share/applications/grsync.desktop

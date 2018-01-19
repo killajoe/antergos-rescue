@@ -1,0 +1,25 @@
+[Desktop Entry]
+Version=1.0
+Name=Chromium
+GenericName=Web Browser
+GenericName[de]=Web-Browser
+Comment=Access the Internet
+Comment[de]=Internetzugriff
+Exec=/usr/bin/chromium %U
+Terminal=false
+Icon=chromium
+Type=Application
+Categories=Network;WebBrowser;
+MimeType=text/html;text/xml;application/xhtml_xml;image/webp;x-scheme-handler/http;x-scheme-handler/https;x-scheme-handler/ftp;
+Actions=NewWindow;NewPrivateWindow;
+X-XFCE-Source=file:///usr/share/applications/chromium.desktop
+
+[Desktop Action NewWindow]
+Name=New Window
+Name[de]=Neues Fenster
+Exec=/usr/bin/chromium
+
+[Desktop Action NewPrivateWindow]
+Name=New Incognito Window
+Name[de]=Neues Inkognito-Fenster
+Exec=/usr/bin/chromium --incognito
