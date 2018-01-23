@@ -155,13 +155,10 @@ python-jinja
 python
 upower
 webkit2gtk
-python-pyalpm
 ttf-aboriginal-sans
 ttf-indic-otf
 ttf-khmer
-ttf-lohit-fonts
 ttf-myanmar3
-ttf-thaana-fonts
 ttf-tlwg
 
 # Network
