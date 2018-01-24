@@ -137,10 +137,10 @@ orage
 xfce4-clipman-plugin
 xfce4-cpufreq-plugin
 xfce4-cpugraph-plugin
-thunar-root
 thunar-archive-plugin
 thunar-media-tags-plugin
 thunar-volman
+file-roller
 xfce4-cpugraph-plugin
 xfce4-datetime-plugin
 xfce4-diskperf-plugin
@@ -166,6 +166,7 @@ brasero
 cdrtools
 chromium
 chromium-widevine
+conky
 gst-libav
 gst-plugins-bad
 gst-plugins-base
@@ -206,6 +207,27 @@ python-mako
 python-mock
 python-requests
 upower
+dosfstools
+encfs
+gtk3
+iso-codes
+mtools
+ntfs-3g
+pam_encfs
+parted
+pyparted
+python-cairo
+python-dbus
+python-gobject
+python-jinja
+python
+upower
+webkit2gtk
+ttf-aboriginal-sans
+ttf-indic-otf
+ttf-khmer
+ttf-myanmar3
+ttf-tlwg
 
 # Network
 b43-firmware
