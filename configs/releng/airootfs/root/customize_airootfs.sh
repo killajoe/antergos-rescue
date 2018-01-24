@@ -14,13 +14,14 @@ chmod 700 /root
 useradd -m -p "" -g users -G "adm,audio,floppy,log,network,rfkill,scanner,storage,optical,power,wheel" -s /bin/bash rescue
 # chmod 700 /root
 chown -R rescue:users /home/rescue
-
+chmod +x /home/rescue/.config/autostart/
 chmod +x /usr/bin/autologin
 chmod +x /usr/bin/cnchi-dev
 chmod +x /usr/bin/hardwareinfo.sh
 chmod +x /usr/bin/install-antergos.sh
 chmod +x /usr/bin/pacman-boot
 chmod +x /usr/bin/livecd-alsa-unmuter
+
 
 sed -i 's/#\(PermitRootLogin \).\+/\1yes/' /etc/ssh/sshd_config
 sed -i "s/#Server/Server/g" /etc/pacman.d/mirrorlist
