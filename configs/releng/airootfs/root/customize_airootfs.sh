@@ -14,7 +14,7 @@ chmod 700 /root
 useradd -m -p "" -g users -G "adm,audio,floppy,log,network,rfkill,scanner,storage,optical,power,wheel" -s /bin/bash rescue
 # chmod 700 /root
 chown -R rescue:users /home/rescue
-chmod +x /home/rescue/.config/autostart/
+chmod +x /home/rescue/.config/autostart/conky.desktop
 chmod +x /usr/bin/autologin
 chmod +x /usr/bin/cnchi-dev
 chmod +x /usr/bin/hardwareinfo.sh
