@@ -17,6 +17,12 @@ __prepare configurations for xfce more clean and complete
 __cnchi still not starting
 *need for removing try and error scripts from /usr/bin and /arc/setup
 *pacman-boot = to get internet working and update cnchi?
-**create chnchi-start.sh to invoce pacman-boot and launch cnchi
+**create cnchi-start.sh to invoce pacman-boot and launch cnchi
+
+23.1.2018
+__remove cnchi autostarts from cnchi-start.sh
++ adding some dependencies for cnchi, now you can start it from menue.
+-- cnchi still put error 'metapackages fail' :(
+__try solve this by adding pacman.conf under /etc
 
 
