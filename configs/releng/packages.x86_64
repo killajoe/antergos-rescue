@@ -96,7 +96,6 @@ xfce4-xkb-plugin
 
 # Desktop Stuff
 antergos-wallpapers
-brasero
 cdrtools
 chromium
 chromium-widevine
@@ -121,7 +120,6 @@ pygtk
 librsvg
 python2-mako
 python2-notify
-clementine
 pinta
 simple-scan
 abiword
