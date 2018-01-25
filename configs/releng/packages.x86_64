@@ -155,6 +155,7 @@ python-dbus
 python-gobject
 python-jinja
 python
+python-setuptools  
 upower
 webkit2gtk
 ttf-aboriginal-sans
