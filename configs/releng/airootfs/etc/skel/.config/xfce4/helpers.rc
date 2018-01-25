@@ -5,6 +5,6 @@
 #
 
 WebBrowser=chromium
-MailReader=thunderbird
+MailReader=geary
 TerminalEmulator=xfce4-terminal
 FileManager=Thunar
