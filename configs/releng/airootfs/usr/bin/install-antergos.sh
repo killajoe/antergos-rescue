@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo -E /usr/share/cnchi/bin/cnchi -dvs bugsnag
+pkexec -E /usr/share/cnchi/bin/cnchi -dv
