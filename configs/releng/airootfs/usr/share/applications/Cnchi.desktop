@@ -2,7 +2,7 @@
 Name=Cnchi
 GenericName=Cnchi
 Comment=Antergos Graphical Installer
-Exec=pkexec /usr/share/cnchi/bin/cnchi -d -v -s bugsnag
+Exec=pkexec /usr/share/cnchi/bin/cnchi -dvs bugsnag
 Icon=/usr/share/antergos/cnchi.png
 StartupNotify=true
 Type=Application
