@@ -1,0 +1,5 @@
+[Desktop Entry]
+Type=Application
+Exec=sh -c "sleep 10; conky -c ~/.conky-inxi-rc;"
+Name=Conky
+Comment=shows inxi hardinfo at desktop
