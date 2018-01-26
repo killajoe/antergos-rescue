@@ -1,7 +1,7 @@
-color0 white
+color0 A6C5F9
 color1 EAEAEA
 color2 FFA300
-color3 grey
+color3 12428E
 update_interval 5
 total_run_times 0
 
@@ -37,18 +37,18 @@ minimum_size 0 0
 TEXT
 ${color2}SYSTEM
 ${offset 15}${color1}$sysname $kernel
-${offset 15}${color1}$nodename
-${offset 15}${color1}Uptime: $uptime
+${offset 15}${color2}$nodename
+${offset 15}${color3}Uptime: $uptime
 ${color2}${hr 2}
 ${offset 15}${color2}Hardware Informations from inxi -Fxxc0
 
 ${color0}${execpi 60 inxi -Fxxc0 }
 
 ${color2}${hr 2}
-${color2}CPU ${color0}${alignr}${cpu cpu0}%
+${color2}CPU ${color3}${alignr}${cpu cpu0}%
 ${cpubar cpu0 5,}
 ${top name 1} $alignr ${top cpu 1}%
 
-${color2}RAM ${color0}${alignr}${mem}
+${color2}RAM ${color1}${alignr}${mem}
 ${membar 5,}
 ${top_mem name 1} $alignr ${top_mem mem_res 1}
