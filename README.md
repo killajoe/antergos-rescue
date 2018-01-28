@@ -40,4 +40,4 @@ The script will now download and install the packages you specified to work/*/ai
 
 You have to remove work directory:
 
-`rm -v work`
+`rm -R work`

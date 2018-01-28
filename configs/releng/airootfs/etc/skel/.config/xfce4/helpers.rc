@@ -1,1 +1,7 @@
 WebBrowser=chromium
+<<<<<<< HEAD
+=======
+MailReader=geary
+TerminalEmulator=xfce4-terminal
+FileManager=Thunar
+>>>>>>> 1a51d5c9b21af57b6d43a82bf0373184bcd59bbe

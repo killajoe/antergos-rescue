@@ -17,6 +17,29 @@ __prepare configurations for xfce more clean and complete
 __cnchi still not starting
 *need for removing try and error scripts from /usr/bin and /arc/setup
 *pacman-boot = to get internet working and update cnchi?
-**create chnchi-start.sh to invoce pacman-boot and launch cnchi
+**create cnchi-start.sh to invoce pacman-boot and launch cnchi
+
+23.1.2018
+__remove cnchi autostarts from cnchi-start.sh
++ adding some dependencies for cnchi, now you can start it from menue.
+-- cnchi still put error 'metapackages fail' :(
+__try solve this by adding pacman.conf under /etc
 
 
+24.1.2018
+
+CNCHI:
+build was fine, but cnchi still gives erors:
+
+2018-01-24 19:02:52 [WARNING] cnchi.py(232) setup_logging(): No module named 'bugsnag'
+2018-01-24 19:02:52 [DEBUG] cnchi.py(336) check_iso_version(): Not running from ISO
+2018-01-24 19:03:09 [WARNING] check.py(174) on_battery(): Cannot read /org/freedesktop/UPower/OnBattery dbus property
+2018-01-24 19:03:09 [DEBUG] updater.py(76) __init__(): Cannot not find /usr/share/cnchi/update.info
+2018-01-24 19:04:40 [ERROR] select_packages.py(291) select_packages(): Error in hardware module. An exception of type FileNotFoundError occured. Arguments:
+(2, 'Datei oder Verzeichnis nicht gefunden')
+2018-01-24 19:41:17 [ERROR] pac.py(164) finalize_transaction(): Kann alpm-Übertragung nicht abschließen: transaction failed, pm_errno 34 (Ungültiges oder beschädigtes Paket), []
+
+So need investigation...
+
+Thunar archivar do not work, installing fileroller will sove this. (added it now)
+skel needs an update to fit language and put etcher starter to bar.
