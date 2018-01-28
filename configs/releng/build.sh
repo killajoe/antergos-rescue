@@ -62,6 +62,15 @@ make_packages() {
     setarch ${arch} mkarchiso ${verbose} -w "${work_dir}/${arch}" -C "${work_dir}/pacman.conf" -D "${install_dir}" -p "$(grep -h -v ^# ${script_path}/packages.{both,${arch}})" install
 }
 
+# Build "dkms" kernel modules.
+build_kernel_modules_with_dkms() {
+	cp "${script_path}/dkms.sh" "${work_dir}/airootfs/usr/bin"
+	chmod +x "${work_dir}/airootfs/usr/bin/dkms.sh"
+	mkarchiso ${verbose} -w "${work_dir}" -C "${pacman_conf}" -D "${install_dir}" \
+		-r '/usr/bin/dkms.sh' \
+		run
+}
+
 # Needed packages for x86_64 EFI boot
 make_packages_efi() {
     setarch ${arch} mkarchiso ${verbose} -w "${work_dir}/${arch}" -C "${work_dir}/pacman.conf" -D "${install_dir}" -p "efitools" install
