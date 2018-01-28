@@ -216,3 +216,9 @@ mtools
 ntfs-3g
 squashfs-tools
 xfsprogs
+spl
+spl-utils
+zfs
+zfs-utils
+znapzend
+mkinitcpio-sd-zfs
