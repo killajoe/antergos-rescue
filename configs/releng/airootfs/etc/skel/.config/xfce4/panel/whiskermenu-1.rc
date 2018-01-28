@@ -1,11 +1,11 @@
-favorites=exo-terminal-emulator.desktop,exo-file-manager.desktop,exo-mail-reader.desktop,exo-web-browser.desktop
-recent=exo-mail-reader.desktop,menulibre.desktop
-button-title=Anwendungen
+favorites=exo-terminal-emulator.desktop,exo-file-manager.desktop,cnchi.desktop,chromium.desktop
+recent=lightdm-gtk-greeter-settings.desktop,xfce-ui-settings.desktop,xfce-workspaces-settings.desktop,exo-web-browser.desktop,xfce-backdrop-settings.desktop,xfce-display-settings.desktop,xfce-settings-manager.desktop
+button-title=Applications
 button-icon=/usr/share/antergos-rescue/logo-rescue.png
-button-single-row=true
+button-single-row=false
 show-button-title=false
 show-button-icon=true
-launcher-show-name=false
+launcher-show-name=true
 launcher-show-description=true
 launcher-show-tooltip=true
 item-icon-size=2
@@ -19,13 +19,13 @@ display-recent-default=false
 position-search-alternate=true
 position-commands-alternate=false
 position-categories-alternate=false
-menu-width=400
-menu-height=500
+menu-width=455
+menu-height=424
 menu-opacity=100
 command-settings=xfce4-settings-manager
 show-command-settings=true
 command-lockscreen=xflock4
-show-command-lockscreen=false
+show-command-lockscreen=true
 command-switchuser=gdmflexiserver
 show-command-switchuser=false
 command-logout=xfce4-session-logout
@@ -33,17 +33,17 @@ show-command-logout=true
 command-menueditor=menulibre
 show-command-menueditor=false
 command-profile=mugshot
-show-command-profile=false
+show-command-profile=true
 search-actions=5
 
 [action0]
-name=Handbuchseiten
+name=Man Pages
 pattern=#
 command=exo-open --launch TerminalEmulator man %s
 regex=false
 
 [action1]
-name=Internetsuche
+name=Web Search
 pattern=?
 command=exo-open --launch WebBrowser https://duckduckgo.com/?q=%u
 regex=false
@@ -55,13 +55,13 @@ command=exo-open --launch WebBrowser https://en.wikipedia.org/wiki/%u
 regex=false
 
 [action3]
-name=Im Terminal ausführen
+name=Run in Terminal
 pattern=!
 command=exo-open --launch TerminalEmulator %s
 regex=false
 
 [action4]
-name=Adresse öffnen
+name=Open URI
 pattern=^(file|http|https):\\/\\/(.*)$
 command=exo-open \\0
 regex=true

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Print Settings
+Comment=Configure printers
+Exec=system-config-printer
+Terminal=false
+Type=Application
+Icon=printer
+StartupNotify=true
+X-Desktop-File-Install-Version=0.23
+Categories=System;Settings;HardwareSettings;Printing;GTK;
+X-XFCE-Source=file:///usr/share/applications/system-config-printer.desktop

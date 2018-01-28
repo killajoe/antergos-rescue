@@ -30,5 +30,5 @@ sed -i 's/#\(HandleSuspendKey=\)suspend/\1ignore/' /etc/systemd/logind.conf
 sed -i 's/#\(HandleHibernateKey=\)hibernate/\1ignore/' /etc/systemd/logind.conf
 sed -i 's/#\(HandleLidSwitch=\)suspend/\1ignore/' /etc/systemd/logind.conf
 
-systemctl enable pacman-init.service choose-mirror.service NetworkManager.service vboxservice.service livecd-alsa-unmuter.service
+systemctl enable pacman-init.service choose-mirror.service NetworkManager.service vboxservice.service livecd-alsa-unmuter.service zfs.target zfs-import-cache zfs-mount zfs-import.target
 systemctl set-default multi-user.target

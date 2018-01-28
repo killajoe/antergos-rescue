@@ -1,10 +1,6 @@
 [xfdesktop-version-4.10.3+-rcfile_format]
 4.10.3+=true
 
-[f63ab390-deb4-4d90-85b1-8c2e73a32ec0]
-row=3
-col=0
-
 [704A76044A75C77E]
 row=1
 col=0
@@ -25,7 +21,11 @@ col=0
 row=5
 col=0
 
-[Papierkorb]
+[f63ab390-deb4-4d90-85b1-8c2e73a32ec0]
+row=3
+col=0
+
+[Trash]
 row=6
 col=0
 
@@ -33,7 +33,7 @@ col=0
 row=7
 col=0
 
-[/home/joe]
+[/home/rescue]
 row=8
 col=0
 

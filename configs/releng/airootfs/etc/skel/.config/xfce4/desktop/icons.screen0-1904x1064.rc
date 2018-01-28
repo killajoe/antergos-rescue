@@ -1,6 +1,10 @@
 [xfdesktop-version-4.10.3+-rcfile_format]
 4.10.3+=true
 
+[704A76044A75C77E]
+row=1
+col=0
+
 [dc134565-62f9-4cc6-9d95-3db310c03716]
 row=4
 col=0
@@ -21,11 +25,7 @@ col=0
 row=3
 col=0
 
-[704A76044A75C77E]
-row=1
-col=0
-
-[Papierkorb]
+[Trash]
 row=6
 col=0
 

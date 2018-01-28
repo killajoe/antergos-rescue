@@ -1,0 +1,21 @@
+[Desktop Entry]
+Version=1.1
+Name=Backups
+Comment=Change your backup settings
+Icon=luckybackup
+Exec=deja-dup
+StartupNotify=true
+DBusActivatable=true
+Type=Application
+Categories=Utility;Archiving;GNOME;GTK;X-GNOME-Utilities;
+Keywords=déjà;deja;dup;
+X-GNOME-UsesNotifications=true
+Actions=backup;
+X-XFCE-Source=file:///usr/share/applications/org.gnome.DejaDup.desktop
+
+Path=
+Terminal=false
+
+[Desktop Action backup]
+Name=Back Up
+Exec=deja-dup --backup
