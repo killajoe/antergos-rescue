@@ -222,3 +222,6 @@ zfs
 zfs-utils
 znapzend
 mkinitcpio-sd-zfs
+
+#kernel
+#linux-hp-envy-x360
