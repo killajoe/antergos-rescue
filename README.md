@@ -22,7 +22,7 @@ Cloning this repository like this: `git clone https://github.com/killajoe/anterg
 
 Enter into antergos-rescue folder and install our modified mkarchiso by running: `cd antergos-rescue` and then `sudo make install`
 
-following commands needs to be done all as root (su to get so) then copy the installed files from installdir to your builddir: `cp -R /usr/share/antergos-rescue/configs/antergos-rescue/ //builddir`
+following commands needs to be done all as root (su to get so) then copy the installed files from installdir to your builddir: `cp -R /usr/share/archiso/configs/releng  //builddir`
 
 # Build the ISO
 
