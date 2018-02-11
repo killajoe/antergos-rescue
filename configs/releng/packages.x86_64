@@ -194,7 +194,6 @@ arch-install-scripts
 crda
 dialog
 dmraid
-dkms
 efibootmgr
 efitools
 fakeroot
