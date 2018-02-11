@@ -63,13 +63,13 @@ make_packages() {
 }
 
 # Build "dkms" kernel modules.
-build_kernel_modules_with_dkms() {
-	cp "${script_path}/dkms.sh" "${work_dir}/airootfs/usr/bin"
-	chmod +x "${work_dir}/airootfs/usr/bin/dkms.sh"
-	mkarchiso ${verbose} -w "${work_dir}" -C "${pacman_conf}" -D "${install_dir}" \
-		-r '/usr/bin/dkms.sh' \
-		run
-}
+#build_kernel_modules_with_dkms() {
+#	cp "${script_path}/dkms.sh" "${work_dir}/airootfs/usr/bin"
+#	chmod +x "${work_dir}/airootfs/usr/bin/dkms.sh"
+#	mkarchiso ${verbose} -w "${work_dir}" -C "${pacman_conf}" -D "${install_dir}" \
+#		-r '/usr/bin/dkms.sh' \
+#		run
+#}
 
 # Needed packages for x86_64 EFI boot
 make_packages_efi() {
@@ -117,6 +117,7 @@ make_boot() {
     mkdir -p ${work_dir}/iso/${install_dir}/boot/${arch}
     cp ${work_dir}/${arch}/airootfs/boot/archiso.img ${work_dir}/iso/${install_dir}/boot/${arch}/archiso.img
     cp ${work_dir}/${arch}/airootfs/boot/vmlinuz-linux ${work_dir}/iso/${install_dir}/boot/${arch}/vmlinuz
+    cp ${work_dir}/${arch}/airootfs/boot/vmlinuz-linux-hp-envy-x360-git ${work_dir}/iso/${install_dir}/boot/${arch}/vmlinuz-hp 
 }
 
 # Add other aditional/extra files to ${install_dir}/boot/
@@ -168,6 +169,8 @@ make_efi() {
     sed "s|%ARCHISO_LABEL%|${iso_label}|g;
          s|%INSTALL_DIR%|${install_dir}|g" \
         ${script_path}/efiboot/loader/entries/archiso-x86_64-usb.conf > ${work_dir}/iso/loader/entries/archiso-x86_64.conf
+        ${script_path}/efiboot/loader/entries/archiso-x86_64-hp.conf > ${work_dir}/iso/loader/entries/archiso-x86_64-hp.conf
+        ${script_path}/efiboot/loader/entries/archiso-x86_64-nv.conf > ${work_dir}/iso/loader/entries/archiso-x86_64-nv.conf
 
     # EFI Shell 2.0 for UEFI 2.3+
     curl -o ${work_dir}/iso/EFI/shellx64_v2.efi https://raw.githubusercontent.com/tianocore/edk2/master/ShellBinPkg/UefiShell/X64/Shell.efi
@@ -186,6 +189,7 @@ make_efiboot() {
 
     mkdir -p ${work_dir}/efiboot/EFI/archiso
     cp ${work_dir}/iso/${install_dir}/boot/x86_64/vmlinuz ${work_dir}/efiboot/EFI/archiso/vmlinuz.efi
+    cp ${work_dir}/iso/${install_dir}/boot/x86_64/vmlinuz-linux-hp-envy-x360-git ${work_dir}/efiboot/EFI/archiso/vmlinuz-hp.efi
     cp ${work_dir}/iso/${install_dir}/boot/x86_64/archiso.img ${work_dir}/efiboot/EFI/archiso/archiso.img
 
     cp ${work_dir}/iso/${install_dir}/boot/intel_ucode.img ${work_dir}/efiboot/EFI/archiso/intel_ucode.img
@@ -204,7 +208,8 @@ make_efiboot() {
     sed "s|%ARCHISO_LABEL%|${iso_label}|g;
          s|%INSTALL_DIR%|${install_dir}|g" \
         ${script_path}/efiboot/loader/entries/archiso-x86_64-cd.conf > ${work_dir}/efiboot/loader/entries/archiso-x86_64.conf
-
+        ${script_path}/efiboot/loader/entries/archiso-x86_64-hp.conf > ${work_dir}/efiboot/loader/entries/archiso-x86_64-hp.conf
+        ${script_path}/efiboot/loader/entries/archiso-x86_64-nv.conf > ${work_dir}/efiboot/loader/entries/archiso-x86_64-nv.conf
     cp ${work_dir}/iso/EFI/shellx64_v2.efi ${work_dir}/efiboot/EFI/
     cp ${work_dir}/iso/EFI/shellx64_v1.efi ${work_dir}/efiboot/EFI/
 
