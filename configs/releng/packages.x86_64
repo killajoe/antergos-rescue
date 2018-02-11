@@ -1,3 +1,7 @@
+#kernel
+linux-hp-envy-x360-git
+linux-hp-envy-x360-git-headers
+
 # Xorg & Graphics Drivers
 mesa
 virtualbox-guest-modules-arch
@@ -216,12 +220,4 @@ mtools
 ntfs-3g
 squashfs-tools
 xfsprogs
-spl
-spl-utils
-zfs
-zfs-utils
-znapzend
-mkinitcpio-sd-zfs
 
-#kernel
-#linux-hp-envy-x360
