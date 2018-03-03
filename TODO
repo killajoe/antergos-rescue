@@ -17,4 +17,6 @@ Jan 18 19:20:26 archiso systemd[1]: Failed to start LiveMedia Config Script.
 # Thunar volman? or what ever is automounting 
 devices nd open up filebrowser on installation with cnchi
 
-# desktop needs Keyoard Layout switcher (XFCE - Panel?) 
+# desktop needs Keyoard Layout switcher (XFCE - Panel?) == added... but still needs more comfort...
+
+#audio system not working == pulseaudio not started -- may needs some deps...
