@@ -220,3 +220,10 @@ ntfs-3g
 squashfs-tools
 xfsprogs
 
+# audio
+pulseaudio  
+pavucontrol
+alsa-utils
+
+
+
