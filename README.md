@@ -2,7 +2,7 @@
 # a swiss-knife USB-Live-ISO for Antergos
 !!!!!!! ISO IS NOT JET READY IT IS UNDER HEAVY DEVELOPMENT: DO NOT USE FOR RESCUE ON IMPORTANT DATA !!!!!!! 
 
-Latest downloads are aviable over my webside: http://kamprad.net/Downloads/antergos-rescue/release/
+Latest builds are aviable over my webside: http://antergos.kamprad.net/antergos-rescue/release/
 
 Discussion on the ISO will happen here: https://forum.antergos.com/topic/8937/antergos-rescue-the-antergos-swiss-knive-live-iso
 
@@ -18,7 +18,7 @@ Install:
 
 # cloning
 
-Cloning this repository like this: `git clone https://github.com/killajoe/antergos-rescue.git`
+Cloning this repository like this: `git clone https://github.com/killajoe/antergos-rescue.git --recursive`
 
 Enter into antergos-rescue folder and install our modified mkarchiso by running: `cd antergos-rescue` and then `sudo make install`
 
