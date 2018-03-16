@@ -1,6 +1,7 @@
 ![antergos-rescue](http://antergos.kamprad.net/antergos-rescue/images/rescue-desktop.png)
 # a swiss-knife USB-Live-ISO for Antergos
-!!!!!!! ISO IS NOT JET READY IT IS UNDER HEAVY DEVELOPMENT: DO NOT USE FOR RESCUE ON IMPORTANT DATA !!!!!!! 
+ 
+- ![#f03c15](# warning: the antergos :rescue ISO is still under development, use on your own risk!) `#f03c15`
 
 Latest builds are aviable over my webside: http://antergos.kamprad.net/antergos-rescue/release/
 
