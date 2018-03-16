@@ -1,7 +1,3 @@
-#kernel
-linux-hp-envy-x360-git
-linux-hp-envy-x360-git-headers
-
 # Xorg & Graphics Drivers
 mesa
 virtualbox-guest-modules-arch
